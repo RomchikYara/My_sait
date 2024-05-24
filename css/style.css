@@ -202,4 +202,8 @@ body {
     .modal-dialog {
         margin: auto !important;
     }
+    .about-title {
+        text-align: center;
+        font-size: 40px;
+    }
 }
