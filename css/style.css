@@ -199,4 +199,7 @@ body {
         border-radius: 66% 25% 76% 16% / 46% 25% 70% 50%;
         z-index: 0;
     }
+    .modal-dialog {
+        margin: auto;
+    }
 }
