@@ -1,0 +1,297 @@
+body {
+    font-family: "Rubik-regular";
+    background-color: #b9b9b9;
+}
+
+.container {
+    z-index: 10;
+}
+/*========================================== Navbar ================================================*/
+/*========================================== Navbar ================================================*/
+.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1050;
+}
+
+.ham1 .top {
+    stroke-dasharray: 40 139;
+}.ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 400ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.hamRotate.active {
+    transform: rotate(45deg);
+}
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+.line {
+    fill:none;
+    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+    stroke:#515151;
+    stroke-width:5.5;
+    stroke-linecap:round;
+} 
+.ham1 .bottom {
+    stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+    stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+    stroke-dashoffset: -138px;
+}
+
+
+.nav-top {
+    transition: all .3s; 
+    
+}
+.nav-not-top {
+    transition: all .3s;
+    
+}
+
+.navbar-toggler {
+    padding: 0;
+    border: none;
+    z-index: 1050;
+}
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+
+.bac-nav {
+    background: #bababad2;
+    
+}
+.h-b {
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.offcanvas {
+    background-color: #b9b9b9;
+}
+/*========================================== Navbar ================================================*/
+/*========================================== Navbar ================================================*/
+
+/*========================================== about ================================================*/
+/*========================================== about ================================================*/
+.about {
+    height: 100dvh;
+    padding: 150px 0 200px 0;
+    position: relative;
+}
+.about::before {
+    display: flex;
+    content: "";
+    position: absolute;
+    transform: rotate(-45deg);
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+    top: 300px;
+    left: 60px;
+    filter: blur(105px);
+    background: rgb(158,112,255);
+    background: linear-gradient(90deg, rgba(158,112,255,1) 0%, rgb(255, 170, 170) 100%);
+    border-radius: 66% 25% 76% 16% / 46% 25% 70% 50%;
+    z-index: 0;
+}
+.about-title {
+    font-size: 40px;
+    z-index: 100;
+}
+
+.about-img {
+    border-radius: 80% 20% 30% 70% / 78% 51% 49% 22% ;
+}
+
+.accent {
+    color:#9e70ff;
+}
+/*========================================== about ================================================*/
+/*========================================== about ================================================*/
+
+/*========================================== skill ================================================*/
+/*========================================== skill ================================================*/
+
+.Skills {
+    position: relative;
+}
+.Skills::before {
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+    top: 300px;
+    right: 60px;
+    filter: blur(105px);
+    background: rgb(158,112,255);
+    background: linear-gradient(90deg, rgba(158,112,255,1) 0%, rgb(255, 170, 170) 100%);
+    border-radius: 66% 25% 76% 16% / 46% 25% 70% 50%;
+    z-index: 0;
+}
+
+.skill-content {
+    z-index: 100;
+}
+.skill-content p{
+    padding: 30px 20px 30px 30px;
+    border: 1px solid #0000000b;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
+    inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+    transition: all .3s;
+}
+.skill-content p::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 43%;
+    left: 13px;
+    background-color: #9e70ff;
+    border-radius: 50%;
+}
+
+/*========================================== portfolio ================================================*/
+/*========================================== portfolio ================================================*/
+
+.portfolio .img-fluid {
+    border-radius: 20px;
+}
+
+.card-contant {
+    padding: 5px;
+    border-radius: 20px;
+    background: #b9b9b9;
+    box-shadow: 
+    -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
+    inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+    transition: all .3s;
+}
+
+.modal-content {
+    background-color: #b9b9b9;
+}
+
+.modal-btn {
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+.modal-dialog {
+    width: 100%;
+    min-width: 100px;
+    max-width: 700px;
+}
+/*========================================== portfolio ================================================*/
+/*========================================== portfolio ================================================*/
+
+/*========================================== footer ================================================*/
+/*========================================== footer ================================================*/
+.social {
+    padding: 20px;
+    max-width: 80px;
+    border-radius: 50%;
+    border: 1px solid #00000006;
+    box-shadow: 
+    -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
+    inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    transition: all .3s;
+}
+
+/*========================================== footer ================================================*/
+/*========================================== footer ================================================*/
+
+
+
+@media (max-width:992px) {
+    .about::before {
+        display: flex;
+        content: "";
+        position: absolute;
+        transform: rotate(-45deg);
+        width: 200px;
+        height: 200px;
+        top: 300px;
+        left: 60px;
+        filter: blur(105px);
+        background: rgb(158,112,255);
+        background: linear-gradient(90deg, rgba(158,112,255,1) 0%, rgb(255, 170, 170) 100%);
+        border-radius: 66% 25% 76% 16% / 46% 25% 70% 50%;
+        z-index: 0;
+    }
+    .modal-dialog {
+        margin: auto !important;
+    }
+    .about-title {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media (hover: hover) {
+    .nav-link:hover {
+        color: #9e70ff;
+    }
+    .skill-content p:hover{
+        box-shadow: 
+        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    }
+    .card-contant:hover {
+        box-shadow: 
+        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    }
+    .modal-btn:hover {
+        color: #9e70ff;
+    }
+    .social:hover {
+        box-shadow: 
+        -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+    }
+}
+@media (hover: none) {
+    .skill-content p:active{
+        box-shadow: 
+        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    }
+    .card-contant:active {
+        box-shadow: 
+        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+    }
+    .modal-btn:active {
+        color: #9e70ff;
+    }
+    .social:active {
+        box-shadow: 
+        -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
+        inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+    }
+    .nav-link:active {
+        color: #9e70ff;
+    }
+}
