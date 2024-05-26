@@ -1,5 +1,8 @@
 body {
-    font-family: "Rubik-regular";
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     background-color: #b9b9b9;
 }
 
@@ -60,7 +63,7 @@ body {
 }
 .nav-not-top {
     transition: all .3s;
-    
+
 }
 
 .navbar-toggler {
@@ -84,6 +87,7 @@ body {
 
 .offcanvas {
     background-color: #b9b9b9;
+    backdrop-filter: blur(5px) !important;
 }
 /*========================================== Navbar ================================================*/
 /*========================================== Navbar ================================================*/
