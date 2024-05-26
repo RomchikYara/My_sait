@@ -11,6 +11,7 @@ body {
 }
 
 
+
 /*========================================== Navbar ================================================*/
 /*========================================== Navbar ================================================*/
 .ham {
@@ -61,11 +62,12 @@ body {
 
 .nav-top {
     transition: all .3s; 
-    
+    min-height: 120px;
 }
 .nav-not-top {
     transition: all .3s;
-
+    min-height: 80px;
+    backdrop-filter: blur(5px);
 }
 
 .navbar-toggler {
@@ -89,7 +91,8 @@ body {
 
 .offcanvas {
     background-color: #b9b9b9;
-    backdrop-filter: blur(5px) !important;
+    position: absolute;
+    min-height: 100vh;
 }
 /*========================================== Navbar ================================================*/
 /*========================================== Navbar ================================================*/
