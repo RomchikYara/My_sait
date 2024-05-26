@@ -211,7 +211,7 @@ body {
 }
 
 .modal-header {
-    border-bottom: none;
+    border-bottom: none !impotent;
 }
 .modal-footer {
     border-top: none;
