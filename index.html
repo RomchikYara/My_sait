@@ -19,9 +19,9 @@
         <nav class="navbar fixed-top navbar-expand-lg wow fadeInDown header-shadow bac-nav nav-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><span class="accent h-b">Master Sait</span></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                <button class="navbar-btn navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+                    <svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60"
                         onclick="this.classList.toggle('active')" xlink:href="data:image/png;">
                         <path class="line top"
                             d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
@@ -30,7 +30,7 @@
                             d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
                     </svg>
                 </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                <div class="offcanvas not-act offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-body">
                         <ul class="navbar-nav d-flex justify-content-lg-end justify-content-center align-items-center flex-grow-1 pe-lg-3 gap-lg-0 gap-5"
@@ -109,10 +109,13 @@
                                 <div class="img-box mb-5">
                                     <img class="img-fluid" src="image/portfolio/sait_1.jpg" alt="">
                                 </div>
-                                <a href="#" class="modal-btn d-flex justify-content-end" data-bs-toggle="modal"
-                                    data-bs-target="#modal-1">
-                                    Подробнее
-                                </a>
+                                <div class="block mb-1 d-flex">
+                                    <p class="ps-3">Одностраничный сайт</p>
+                                    <a href="#" class="ms-auto modal-btn d-flex justify-content-end" data-bs-toggle="modal"
+                                        data-bs-target="#modal-1">
+                                        Ссылка 
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="card-box col-lg-6 col-sm-12 d-flex flex-column p-3">
@@ -163,9 +166,6 @@
                         <div class="img-box d-flex justify-content-lg-end">
                             <a class="social me-5" href="#">
                                 <img src="image/icon/telegram-svgrepo-com.svg" alt="" class="img-fluid">
-                            </a>
-                            <a class="social" href="#">
-                                <img src="image/icon/email-svgrepo-com.svg" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div>
