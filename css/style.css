@@ -2,7 +2,7 @@ body {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: #b9b9b9;
+    background-color: #ffffff;
 }
 
 .container {
@@ -80,12 +80,11 @@ body {
 
 
 .bac-nav {
-    background: #bababad2;
+    background: #ffffffd2;
     
 }
 .h-b {
     font-size: 30px;
-    text-shadow: 3px 3px 3px #000000;
 }
 
 .offcanvas {
@@ -182,16 +181,13 @@ body {
 /*========================================== portfolio ================================================*/
 
 .portfolio .img-fluid {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .card-contant {
-    padding: 5px;
-    border-radius: 20px;
+    padding: 0;
+    border-radius: 10px;
     background: #b9b9b9;
-    box-shadow: 
-    -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
-    inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
     transition: all .3s;
 }
 
@@ -230,9 +226,6 @@ body {
     max-width: 80px;
     border-radius: 50%;
     border: 1px solid #00000006;
-    box-shadow: 
-    -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
-    inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
     transition: all .3s;
 }
 
@@ -274,43 +267,25 @@ body {
     .nav-link:hover {
         color: #9e70ff;
     }
-    .skill-content p:hover{
-        box-shadow: 
-        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-    }
     .card-contant:hover {
-        box-shadow: 
-        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+        box-shadow: 4px 4px 5px -1px rgba(34, 60, 80, 0.09);
     }
     .modal-btn:hover {
         color: #9e70ff;
     }
     .social:hover {
-        box-shadow: 
-        -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+        box-shadow: 4px 8px 5px -1px rgba(34, 60, 80, 0.09);
     }
 }
 @media (hover: none) {
-    .skill-content p:active{
-        box-shadow: 
-        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
-    }
     .card-contant:active {
-        box-shadow: 
-        -10px -10px 15px rgba(255, 255, 255, 0), 10px 10px 15px rgba(70, 70, 70, 0), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0.5), inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+        box-shadow: 4px 4px 5px -1px rgba(34, 60, 80, 0.09);
     }
     .modal-btn:active {
         color: #9e70ff;
     }
     .social:active {
-        box-shadow: 
-        -10px -10px 15px rgba(255,255,255,0.5), 10px 10px 15px rgba(70,70,70,0.12), 
-        inset -10px -10px 15px rgba(255, 255, 255, 0), inset 10px 10px 15px rgba(70, 70, 70, 0);
+        box-shadow: 4px 8px 5px -1px rgba(34, 60, 80, 0.09);
     }
     .nav-link:active {
         color: #9e70ff;
