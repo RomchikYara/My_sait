@@ -1,7 +1,6 @@
 body {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
     background-color: #b9b9b9;
 }
@@ -91,8 +90,6 @@ body {
 
 .offcanvas {
     background-color: #b9b9b9;
-    position: absolute;
-    min-height: 100vh;
 }
 /*========================================== Navbar ================================================*/
 /*========================================== Navbar ================================================*/
@@ -198,6 +195,10 @@ body {
     transition: all .3s;
 }
 
+.card-contant p{
+    font-size: 20px;
+}
+
 .modal-content {
     background-color: #b9b9b9;
 }
@@ -262,6 +263,10 @@ body {
     .about-title {
         text-align: center;
         font-size: 40px;
+    }
+    .offcanvas {
+        
+        height: 100vh;
     }
 }
 
